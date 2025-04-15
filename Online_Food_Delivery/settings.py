@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 
     'django_extensions',
     'crispy_forms',
+    'crispy_bootstrap4',
     'Product'
 
 ]
@@ -133,3 +134,5 @@ MEDIA_URL = '/media/'
 
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
+# Django Crispy Forms Configuration
+CRISPY_TEMPLATE_PACK = 'bootstrap4'  # Use 'bootstrap5' if you're using Bootstrap 5
